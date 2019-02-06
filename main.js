@@ -7,7 +7,7 @@ import createSagaMiddleware from 'redux-saga';
 
 import Counter from './Counter';
 import reducer from './reducers';
-import { helloSaga } from './sagas';
+import rootSaga from './sagas';
 
 const sagaMiddleware = createSagaMiddleware();
 
